@@ -11,13 +11,21 @@ const Loader = () => {
   const progressNumRef = useRef(null);
   const wordsGroupRef = useRef(null);
 
+  //Word shuffle controller
   useEffect(() => {
     gsap.to(wordsGroupRef.current, {
       yPercent: -80,
       duration: 5,
-      ease: "expo.inOut",
+      ease: "power3.inOut",
     });
+      //Progress bar animation controll
+  gsap.to(progressRef.current, {
+    scaleX: 1,
+    duration: 5,
+    ease: 'power3.inOut'
+  })
   }, [])
+
 
   return (
     <div className={styles.loader__wrapper} ref={loaderRef}>
