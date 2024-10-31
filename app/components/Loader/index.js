@@ -13,17 +13,7 @@ const Loader = () => {
 
   //Word shuffle controller
   useEffect(() => {
-    gsap.to(wordsGroupRef.current, {
-      yPercent: -80,
-      duration: 5,
-      ease: "power3.inOut",
-    });
-      //Progress bar animation controll
-  gsap.to(progressRef.current, {
-    scaleX: 1,
-    duration: 5,
-    ease: 'power3.inOut'
-  })
+    
   }, [])
 
 
