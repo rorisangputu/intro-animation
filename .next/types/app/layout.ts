@@ -1,4 +1,4 @@
-// File: /Users/daniel.hult/Sites/tutorials/ultra-agency/ultra-starter/app/layout.js
+// File: /Users/roriputu/Documents/Web-Dev/nextjs/ultra-starter/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
