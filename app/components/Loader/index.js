@@ -3,6 +3,7 @@ import { words } from "./data";
 import { gsap } from "gsap";
 
 import styles from "./Loader.module.scss";
+import { introAnimation, progressAnimation } from "./animations";
 
 const Loader = () => {
   

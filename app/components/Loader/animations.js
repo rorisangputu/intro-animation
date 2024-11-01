@@ -1,3 +1,5 @@
+import gsap from "gsap";
+
 export const introAnimation = (wordsGroupRef) => {
   const tl = gsap.timeline();
 
@@ -10,7 +12,7 @@ export const introAnimation = (wordsGroupRef) => {
   return tl;
 };
 
-export const progressAnimation = (progressRef) => {
+export const progressAnimation = (progressRef, progressNumRef) => {
   const tl = gsap.timeline();
   //Progress bar animation controll
   tl.to(progressRef.current, {
